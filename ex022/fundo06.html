@@ -6,11 +6,13 @@
     <title>Mundando o tamanho da imagem de fundo</title>
     <style>
         body {
-            background-color:black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+
+            /* Shorthand para background
+
+            Color > Image > Position > Repeat > [Size] > Attachment
+             */
+             background: color black url('imagens/wallpaper002.jpg') no-repeat center center fixed;
+             background-size: cover;
         }
 
         main {
